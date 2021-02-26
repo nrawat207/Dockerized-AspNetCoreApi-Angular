@@ -13,7 +13,7 @@ services:
       context: .
       dockerfile: WebApp/Dockerfile
 
-  angular:
+  angular-app:
     image: ${DOCKER_REGISTRY-}angular-app
     build:
       context: ../angular
@@ -21,4 +21,4 @@ services:
     environment:
       NODE_ENV: production
     ports:
-      - 4200:4200
+      - "4200:4200"
