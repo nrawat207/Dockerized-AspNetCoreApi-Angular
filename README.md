@@ -31,6 +31,6 @@ This will help you to create single container and multiple container app using d
 # Steps for creating multi service docker container (asp.net core web api + web app + angular app)
 7. Modity docker-compose file in visual studio to add 'Angular app' as well
 8. run the docker-compose
-9. This will deploy all the three docker images for docker host
+9. This will deploy all the three docker images for docker host 
 
 
